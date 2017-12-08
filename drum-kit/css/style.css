@@ -1,0 +1,44 @@
+body {
+	font-family: monospace;
+	background-color: #4E7B9E;
+	margin-top: 96px;
+}
+
+p {
+	margin: 0 auto;
+	font-size: 45px;
+}
+
+.sound {
+	font-size: 20px;
+}
+
+.flex-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.key {
+	height: 80px;
+	width: 80px;
+
+	margin: 5px;
+
+  	background: rgba(0,0,0,0.4);
+  	transition: all .07s ease;
+
+	font-size: 55px;
+	text-align: center;
+	color: white;
+
+	border-radius: 10px;
+	border: 5px solid white;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
